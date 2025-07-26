@@ -58,7 +58,7 @@ func (database *Database) GetEventSettings() (*EventSettings, error) {
 		SelectionRound2Order:        "L",
 		SelectionRound3Order:        "",
 		TBADownloadEnabled:          true,
-		ApTeamChannel:               36,
+		ApTeamChannel:               37,
 		ApAdminChannel:              0,
 		ApAdminWpaKey:               "1234Five",
 		Ap2TeamChannel:              0,
