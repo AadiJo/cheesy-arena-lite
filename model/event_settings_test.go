@@ -4,8 +4,9 @@
 package model
 
 import (
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestEventSettingsReadWrite(t *testing.T) {
@@ -24,7 +25,7 @@ func TestEventSettingsReadWrite(t *testing.T) {
 			SelectionRound2Order:        "L",
 			SelectionRound3Order:        "",
 			TBADownloadEnabled:          true,
-			ApTeamChannel:               157,
+			ApTeamChannel:               36,
 			ApAdminChannel:              0,
 			ApAdminWpaKey:               "1234Five",
 			WarmupDurationSec:           0,
